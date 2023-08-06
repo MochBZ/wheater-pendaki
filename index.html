@@ -17,8 +17,8 @@
     
       <main>
        <form class="input">
-          <input type="text" class="inputValue" placeholder="Enter a city" onkeypress="return runScript(event)"  />
-          <button class="button">Search</button>
+          <input type="text" class="inputValue" placeholder="Ketik Nama Kota" onkeypress="return runScript(event)"  />
+          <button class="button">Tampilkan</button>
         </form> 
         <div class=" spin">
           <div class="loader">Loading...</div>
@@ -34,41 +34,26 @@
             <h1 id="name"></h1>
             <sub id="country"></sub>
           </div>
-
-          <h1 id="temp"></h1>
-          <div class="min-max">
-            <span id="max"></span>
-            <span id="slash">/</span>
-            <span id="min"></span>
-            <span style="padding: 0 10px"></span>
-            <span id="day"></span>
-          </div>
-          <span id="description"
-                ><i class="fas fa-cloud"></i> <span id="desc"></span
-          ></span>
         </div>
       </main>
-      
       
       <div class="more">
         <div class="row container">
           <div class="col-6 col-md-3 col-sm-3">
             <h2><span id="feel"></span> <sub>°C</sub></h2>
-            <p>Real feel</p>
+              <p>Suhu</p>
           </div>
           <div class="col-6 col-md-3 col-sm-3">
             <h2><span id="wind"></span> <sub>km/h</sub></h2>
-            <p><span id="direction"></span> wind</p>
+              <p>Kecepatan Angin</p>
           </div>
           <div class="col-6 col-md-3 col-sm-3">
             <h2><span id="humid"></span> <sub>%</sub></h2>
-            <p>Humidity</p>
+            <p>Kelembaban</p>
           </div>
           <div class="col-6 col-md-3 col-sm-3">
             <h2><span id="pressure"></span> <sub>hPa</sub></h2>
-            <p>Pressure</p>
-          </div>
-          
+            <p>Tekanan</p>
           </div>
         </div>
       </div>
