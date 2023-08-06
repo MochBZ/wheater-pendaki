@@ -6,13 +6,6 @@
   font-family: "Poppins", sans-serif;
   transition: background 0.3s ease-in, color 0.1s ease-out;
 }
-.light-theme {
-  --bg: #d9e4f5;
-  /* --img: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
-  --img: linear-gradient(320deg, #85a3ce 0%, #f5dadf 74%);
-
-  --color: #000;
-}
 
 .dark-theme {
   /* --bg: #272727; */
